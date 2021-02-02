@@ -1,0 +1,52 @@
+
+.container{
+    margin:4em 16em;
+    border:2px solid gray;
+
+
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    margin: 2em 2em;
+
+    h3{
+        color:green
+    }
+
+    sup{
+        font-weight: bolder;
+        font-size: 20px;
+        color: red;
+    }
+}
+
+
+label {
+    display: inline-block;
+    margin: 10px 0;
+  }
+
+  input { border:1px solid #dedede;
+    border-radius:2px;
+    display: block;
+    font-size: 16px;
+    margin: 2em 2em;
+    width: 90%;
+    padding: 10px;
+  }
+
+  select{
+    display: inline-block;
+    margin: 2em 2em;
+    padding: 10px;
+  }
+
+  button{
+    padding: 12px;
+    margin: 2em ;
+    background-color:green;
+    color: white;
+    width: 20%;
+
+  }
